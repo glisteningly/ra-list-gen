@@ -1,0 +1,25 @@
+{
+  "name": "ra-list-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "ttt": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glisteningly/ra-list-gen.git"
+  },
+  "author": "AreX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glisteningly/ra-list-gen/issues"
+  },
+  "homepage": "https://github.com/glisteningly/ra-list-gen#readme",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "xml-js": "^1.6.11"
+  }
+}
