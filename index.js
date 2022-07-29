@@ -51,7 +51,7 @@ const systemGen = (systemDir) => {
       const file = game.path._text.replace('./', '')
       const gameFileName = getFileName(game.path._text)
       const destDir = `${THUMB_PATH}/${CUR_SYSTEM_NAME}`
-      const path = `${DEST_ROM_PATH}/${file}`
+      const path = `${DEST_ROM_PATH}/${CUR_SYSTEM_DIR}/${file}`
       const label = game.name._text
 
       if (GEN_THUMB) {
